@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zastava Nizozemske</title>
+    <style>
+        .red {
+            background-color: red;
+            height: 100px;
+            width: 300px;
+
+        }
+         .white {
+            background-color: white;
+            height: 100px;
+            width: 300px;
+         }
+         .blue {
+            background-color: blue;
+            height: 100px;
+            width: 300px;
+         }
+
+    </style>
+</head>
+
+<body>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="blue"></div>
+    
+    <h2>Box model</h2>
+    <style>
+    .box {
+            width: 200px;
+            height: 150px;
+            margin: 20px;
+            padding: 10px;
+            border: 5px solid black;
+            box-shadow: 10px 10px 5px 12px blue;
+            background-color: lightblue;
+    
+        
+        }
+    </style>
+    <div class="box">Ovo je primjer box modela.</div>
+    
+    <h2> Klasa i ID</h2>
+    <style>
+        .input-field  {
+            border: 2px solid green;
+            padding: 5px;
+            margin: 10px;
+            width: 200px;
+        }
+        #special-input {
+            border: 2px solid red;
+            background-color: lightyellow;
+
+        }
+    </style>
+    <form>
+        <input type="text" class="input field"
+         placeholder="Obični unos"> <br>
+        <input type="text" id="special-input"
+        placeholder="Posebni unos">
+
+
+        
+    </form>
+    <h2> CSS grid</h2>
+<div class="grid">
+    <div class="jedan"> Mobitel</div>
+    <div class="dva">Punjac</div>
+    <div class="tri">Laptop</div>
+    <div class="cetiri">Računalo</div>
+    <div class="pet">Tablet</div>
+    <div class="sest">Miš</div>
+    <div class="sedam">Tipkovnica</div>
+    <div class="osam"> Slušalice</div>
+    <div class="devet">Zvučnik</div>
+</div>
+   <style>
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        width: 300px;
+        margin: 10px;
+    }
+    .grid div {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid black;
+
+    }
+    .jedan {
+        background-color: aliceblue;
+    }
+    .dva {
+        background-color: aqua;
+    }
+    .tri {
+        background-color: bisque;
+    }
+    .cetiri {
+        background-color: rgb(131, 131,200);
+
+    }
+    .pet{
+        background-color: rgb(228, 211,245)
+    }
+    .sest  { 
+        background-color: cadetblue;
+        
+    }
+    .sedam {
+        background-color: rgb(167, 207,127)
+    }
+    .devet {
+        background-color: coral;
+    }
+
+   </style>
+   <h2> Java script</h2>
+   <br>
+   <script src="kolokvij2.js"></script>
+
+    
+</body>
+</html>
