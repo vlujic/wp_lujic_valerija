@@ -1,0 +1,229 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadaca5</title>
+<style>
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #33748a;
+}
+
+.container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: auto;
+    padding: 2rem;
+}
+
+
+.title {
+    grid-column: span 2;
+    background-color: #728952;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.section-box {
+    grid-column: span 2;
+    background-color: #4476db;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.slika {
+    background-color: rgb(19, 21, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slika img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.recept {
+    background-color: rgb(115, 179, 243);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.recept h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.recept strong {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.recept ul,
+.recept ol {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.recept li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 480px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .section-box {
+        font-size: 1.2rem;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="container">
+<div class="item title"><h1> KUHINJA</h1></div>
+
+<div class="section-box">PPREDJELO</div>
+
+<div class="item slika">
+  <img src="https://th.bing.com/th/id/OIP.jfwj82gUbAvlBtkl-7GF_wHaFj?rs=1&pid=ImgDetMain" width="545" alt="Bakina juha">
+</div>
+
+<div class="item recept">
+  <h2><strong>BAKINA JUHA</strong></h2>
+  <strong>SASTOJCI:</strong>
+  <ul type="square">
+    <li>Tikvice</li><br>
+    <li>Sol<em></li><br>
+    <li>Mlijeko</li><br>
+    <li>Začini <em>(sol, papar, vegeta)</em></li>
+    <li>Brašno</li>
+    <li>Svježi sir</li>
+    <li>Kopar</li>
+    <li>Peršin</li>
+    <li>Koma</li>
+    <li>jogurt</li>
+    <li>jaja</li>
+
+  </ul>
+  <strong>UPUTE:</strong>
+  <ol>
+    <li> Tikvice ogulite, naribajte, malo posolite i zatim ocijedite.</li>
+    <li>Dodajte im mlijeko, brašno, Vegetu, ulje, sir, kopar i nasjeckani peršin pa sve dobro promiješajte.</li>
+    <li> dubokoj posudi napravite umak od jaja, ulja, mlijeka i jogurta.></li>
+    <li>Tri kore za savijače raširite na radni stol i premažite umakom od jaja. Dio umaka ostavite za premazivanje gotovih savijača.</li>
+    <li>Premazane kore poklopite s ostalim korama koje premažite nadjevom od tikvica i savijte u tri savijače. </li>
+    <li>Savijače složite u nauljen lim, premažite ostatkom umaka od jaja i posipajte kimom. Pecite u pećnici zagrijanoj na 180°C oko 40 minuta.</li>
+
+  </ol>
+</div>
+
+<div class="section-box">GLAVNA JELA</div>
+
+<div class="item slika">
+  <img src="https://piovariations.cdn.podravka.net/4dc72b10-63b4-11eb-b9d3-0242ac12002c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp" alt="Pasta s pestom">
+</div>
+
+<div class="item recept">
+  <h2><strong>Pasta s pestom</strong></h2>
+  <strong>SASTOJCI:</strong>
+  <ul type="square">
+    <li>Tjestenina </li><br>
+    <li>Maslinovo ulje </li><br>
+    <li>Crveni luk</li><br>
+    <li>Pileće bijelo meso</li><br>
+    <li>Maslac</li><br>
+    <li>Pileći temeljac</li><br>
+    <li>Začini <em>(sol, papar, slatka i ljuta crvena paprika)</em></li><br>
+    <li>Vrhnje za kuhanje</li>
+    <li>Parmezan</li>
+
+  </ul>
+  <strong>UPUTE:</strong>
+  <ol>
+    <li>Skuhati tijesteninu prema uputama na pakovanju. Ocjediti i ostaviti sa strane.</li>
+    <li>Zagrijati veliku tavu ( ili odgovarajucu serpu) na srednje jakoj vatri, sipati ulje pa dodati mljeveni bijeli luk, mijesavinu bosiljka i origana i pilece bijelo meso. Zaciniti sa soli i biberom pa prziti piletinu dok ne porumeni sa svih strana.  </li>
+    <li> Pecenu piletinu prebaciti u ciniju i ostaviti sa strane. 
+        Masnocu i tecnost ako je ostala baciti.</li>
+    <li>Staviti ponovo tavu na sporet na srednje jaku vatru, otopiti puter pa dodati brasno i prziti dok malo ne porumeni oko 3 minute. Dodati pileci temelja i pavlaku za kuvanje i mijesajuci kuvati dok se umak ne zgusne.</li>
+    <li>Smanjiti temperaturu ili sklonuti sa vatre pa umijesati pesto sos i obje vrste sira. Dodati kuhanu tijesteninu i pilece meso pa sve izmijesati da se poveze.</li>
+    
+  </ol>
+</div>
+
+
+<div class="section-box">DESERT</div>
+
+<div class="item slika">
+  <img src="https://th.bing.com/th/id/R.e36d8a75c8ed4c638eaf6fc8da5c69ad?rik=XdFZGnpYDpn75g&pid=ImgRaw&r=0"> alt="Kinderscheesecake" 
+</div>
+
+<div class="item recept">
+  <h2><strong>Kinder Bueno
+    cheesecake</strong></h2>
+  <strong>SASTOJCI:</strong>
+  <ul type="square">
+    <li>Plazma keks</li><br>
+    <li>Margarin za kuhanje</li><br>
+    <li>Abc sirni namaz</li><br>
+    <li>Šećer u prahu</li><br>
+    <li>Vanilin šećer</li><br>
+    <li>Čokolada tamna</li><br>
+    <li>Šlag</li><br>
+    <li>Čokolada bijela<em>(za glazuru)</em></li>
+  </ul>
+  <strong>UPUTE:</strong>
+  <ol>
+    <li>
+        Digestives kekse usitniti u elektricnoj seckalici. Maslac otopiti u posudi iznad pare. Pomesati ga s usitnjenim keksom.
+         Obruc kalupa promera 20 - 22 cm staviti na tacnu, utisnuti smesu, poravnati i staviti u frizder da se malo stisne</li>
+    <li>Kinder cokoladu otopiti u odgovaracoj posudi iznad pare ili u mikrovalnoj, izmesati o ostaviti da se malo ohladi.
+U posebnoj posudi umutiti 500 grama sira, prosejan secer u prahu i aromu vanilije. Dodati otopljenu Kinder cokoladu i izmiksati.
+        Preko smese sipati tekucu pavlaku i sve zajedno izmiksati.</li>
+    <li>
+        Iseckati Kinder Bueno cokoladice i umesati u smesu. (U originalnom receptu navedeno je da ide 13, ja sam stavila 8)
+        Kremu staviti preko podloge i poravnati. Napravila sam sare pomocu viljuske.
+        Tortu ostaviti u frizider na najmanje 5-6 sati ili preko noci.
+        Zatim pazljivo zaseci uz obruc torte, skloniti obruc i ukrasiti tortu prema zelji.</li>
+    <li>Prema originalnom receptu torta se poprska s 50 grama otopljene cokolade. Umuti se 150 ml slatke pavlake/vrhnja za kolace s 2 kasike secera u prahu. Napravi se 12 ruzica pomocu sprice i na svaku stavi komadic Kinder Bueno cokoladice. Treba 3 cokoladice. Gore po zelji posuti ukrasnim mrvicama (sprinkles).</li>
+    <li>Nakon toga, torta je spremna za kušanje. Dobar tek!</li>
+  </ol>
+</div>
+
+
+</div>
+
+
+
+
+</body></html>
